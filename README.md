@@ -65,6 +65,26 @@ Java JDK is required to one of the R ATLAS WebAPI, where it requires rJava. Ensu
 
 **NOTE:** After modifying the environment variables, always open a new command prompt. If you have administrator privileges, it's recommended to run the command prompt as an administrator for better results.
 
+### 4. **Running the Application**
+
+- Open a new command prompt.
+  
+-  Change the current directory to the path where all the CHIMERA code scripts are located (eg. cd C:\Users\Downloads\CHIMERA_Code_Scripts_folder).
+
+     ```bash
+    cd path
+    ```
+- Then run the prerequisite files in Python and R.
+  
+     ```bash
+    python CHIMERA_Prerequisities.py
+    Rscript CHIMERA_Prerequisities.R
+    ```
+- Launch the application
+  
+     ```bash
+    streamlit run CHIMERA_Main_Script.py
+    ```
 ## Home
 
 In the home page, there are two menus at the top:
