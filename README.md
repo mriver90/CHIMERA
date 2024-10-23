@@ -65,11 +65,21 @@ Java JDK is required to one of the R ATLAS WebAPI, where it requires rJava. Ensu
 
 **NOTE:** After modifying the environment variables, always open a new command prompt. If you have administrator privileges, it's recommended to run the command prompt as an administrator for better results.
 
-### 4. **Running the Application**
+### 4. **Prepare the required files into your local environment**
+
+- Download all the scripts available in the repository and place them alltogether into a folder.
+  
+- Create a new folder inside the created folder called "Vocabulary_Tables". The folder in your local environment should have the following files:
+
+  ![image](https://github.com/user-attachments/assets/291a6a04-2c0f-4422-a576-2b6280d24c10)
+
+- Download vocabularies from [ATHENA](https://athena.ohdsi.org/search-terms/terms/255891) and include the tables "CONCPETS.csv" and "CONCEPT_RELATIONSHIP.csv" into the "Vocabulary_Tables" folder.
+
+### 5. **Running the Application**
 
 - Open a new command prompt.
   
--  Change the current directory to the path where all the CHIMERA code scripts are located (eg. cd C:\Users\Downloads\CHIMERA_Code_Scripts_folder).
+-  Change the current directory to the path where all the CHIMERA code scripts and vocabularies are located (eg. cd C:\Users\Downloads\CHIMERA_Code_Scripts_folder).
 
      ```bash
     cd path
