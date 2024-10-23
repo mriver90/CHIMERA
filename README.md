@@ -41,7 +41,7 @@ CHIMERA requires R for access the ATLAS WebAPIs. Ensure that R 4.4.1 is installe
     
 - If R is installed and successfully added to your system's user environment variables, running the above command will display the R version (i.e., 4.4.1) in the command prompt.
 
-### 2. **Java - JDK**
+### 3. **Java - JDK**
 Java JDK is required to one of the R ATLAS WebAPI, where it requires rJava. Ensure that java 23.0.1 is installed.
 
 - Download Java from the official website: [Java for Windows](https://www.oracle.com/java/technologies/downloads/?er=221886#jdk23-windows)
@@ -83,11 +83,8 @@ In the home page, there are two menus at the top:
 5. By default, CHIMERA will create a concept set for all sheets. If you want to create it for specific sheets, check the appropriate boxes to select them.
 6. A table will then appear, displaying the selected sheet codes.
 7. Next, enter your ATLAS credentials and press Enter.
-
-**NOTE:**
-- The ATLAS username will be included in the naming convention for the Concept Set, formatted as follows: `CHI_first2charactersOfATLASUserName_last2charactersOfATLASUserName_sheetname_keyword`.
-- Ensure that the sheet name is unique to avoid conflicts when saving the concept set in ATLAS.
-
+   - The ATLAS username will be included in the naming convention for the Concept Set, formatted as follows: `CHI_first2charactersOfATLASUserName_last2charactersOfATLASUserName_sheetname_keyword`.
+   - Ensure that the sheet name is unique to avoid conflicts when saving the concept set in ATLAS.
 8. After your credentials are validated, select the type of concept set. You can choose one or more options.
 9. Check the Concept Set Name, and CHIMERA will indicate whether the name is acceptable.
 10. Next, select the required fields: **Select Concept Code** and **Select Vocabulary ID** columns. These two columns are mandatory.
