@@ -17,6 +17,7 @@ Python is required to run various scripts in CHIMERA. Ensure that Python 3.9.7 i
     ```bash
     python --version
     ```
+    
 - If Python is installed and successfully added to your system's user environment variables, running the above command will display the Python version (i.e., 3.9.7) in the command prompt.
 
 ### 2. **R Programming Language**
@@ -37,6 +38,7 @@ CHIMERA requires R for access the ATLAS WebAPIs. Ensure that R 4.4.1 is installe
     ```bash
     R --version
     ```
+    
 - If R is installed and successfully added to your system's user environment variables, running the above command will display the R version (i.e., 4.4.1) in the command prompt.
 
 ### 2. **Java - JDK**
@@ -57,9 +59,54 @@ Java JDK is required to one of the R ATLAS WebAPI, where it requires rJava. Ensu
     ```bash
     java --version
     ```
+    
 - If Java is installed and successfully added to your system's user environment variables, running the above command will display the Java version (i.e., 23.0.1) in the command prompt.
 
+
 **NOTE:** After modifying the environment variables, always open a new command prompt. If you have administrator privileges, it's recommended to run the command prompt as an administrator for better results.
+
+## Home
+
+In the home page, there are two menus at the top:
+1. **Home** – where users will create concept sets.
+2. **Delete Concept Sets** – where users can delete already created concept sets.
+
+## Creating a Concept Set
+
+1. The application will default to the home menu upon startup. If it does not, click on the "Home" menu.
+2. In this section, you will find an option to upload a file.
+3. Users can upload files in XLSX, XLS, CSV, and XLSM formats. We provide an example of the input file CHIMERA_Input_Template.xlsx, but the format is flexible so users can slightly deviate from this template.
+4. Please take care when uploading:
+   - The Excel file may contain one or multiple sheets.
+   - The Concept ID and Vocabulary columns are required, while I/E and Descendants are optional.  
+   **Example:**
+5. By default, CHIMERA will create a concept set for all sheets. If you want to create it for specific sheets, check the appropriate boxes to select them.
+6. A table will then appear, displaying the selected sheet codes.
+7. Next, enter your ATLAS credentials and press Enter.
+
+**NOTE:**
+- The ATLAS username will be included in the naming convention for the Concept Set, formatted as follows: `CHI_first2charactersOfATLASUserName_last2charactersOfATLASUserName_sheetname_keyword`.
+- Ensure that the sheet name is unique to avoid conflicts when saving the concept set in ATLAS.
+
+8. After your credentials are validated, select the type of concept set. You can choose one or more options.
+9. Check the Concept Set Name, and CHIMERA will indicate whether the name is acceptable.
+10. Next, select the required fields: **Select Concept Code** and **Select Vocabulary ID** columns. These two columns are mandatory.
+11. CHIMERA will display a data table after the cleaning process, along with the total number of concept codes per sheet.
+12. You will also see the Standard Code Mapping table and the total number of concept codes per sheet.
+13. If you want to create separate concept sets based on domain, check the corresponding box. Otherwise, CHIMERA will create a single concept set that includes all domains.
+14. There will be a section for missing codes. If CHIMERA cannot find certain codes, it will list them in a table under the Missing Codes section.
+15. Finally, if everything meets your requirements, click the button labeled **Press to Proceed Generating Concept Set in ATLAS**.
+16. At the end, there is an option to provide user feedback for the CHIMERA application.
+
+## Deleting Concept Sets
+
+1. Click on the "Delete Concept Set" menu located at the top of the application.
+2. Enter your credentials and press Enter.
+3. Once your credentials are validated, a table displaying all available concept sets in ATLAS will appear.
+4. Below the table, enter the concept set ID that you wish to delete. You can also delete multiple concept sets by entering a list of comma separated concept ids.
+
+**NOTE:** Users can only delete concept sets if they possess both read and write access. Please check the `hasWriteAccess` and `hasReadAccess` columns in the table above.
+
 
 # CHIMERA Project team:
 Marcela Rivera, Shahithya Lalitha Prabakaran, Satyajit Pande, Anna Ostropolets, Luisa Martinez
