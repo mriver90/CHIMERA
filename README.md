@@ -77,9 +77,8 @@ In the home page, there are two menus at the top:
 2. In this section, you will find an option to upload a file.
 3. Users can upload files in XLSX, XLS, CSV, and XLSM formats. We provide an example of the input file CHIMERA_Input_Template.xlsx, but the format is flexible so users can slightly deviate from this template.
 4. Please take care when uploading:
-   - The Excel file may contain one or multiple sheets.
+   - The Excel file may contain one or multiple sheets. Maintain a consistent data structure across multiple sheets.
    - The Concept ID and Vocabulary columns are required, while I/E and Descendants are optional.  
-   **Example:**
 5. By default, CHIMERA will create a concept set for all sheets. If you want to create it for specific sheets, check the appropriate boxes to select them.
 6. A table will then appear, displaying the selected sheet codes.
 7. Next, enter your ATLAS credentials and press Enter.
