@@ -22,7 +22,7 @@ Run the executable file, CHIMERA_Installation.exe, with administrator privileges
   <img src="https://github.com/user-attachments/assets/47fbd0d9-b016-4771-bd2c-87c4656a66a0" alt="Run with Elevated Privileges" width="200" height="400">
 
 #### 2.1. Install Python
- - After a few seconds, the executable file will check for the availability of Python version 3.9.7 in your system. If it’s not available, it will download and begin the installation
+After a few seconds, the executable file will check for the availability of Python version 3.9.7 in your system. If it’s not available, it will download and begin the installation.
    
  - The installation process requires user interaction, and a pop-up dialog box for Python installation will appear
    
@@ -31,11 +31,12 @@ Run the executable file, CHIMERA_Installation.exe, with administrator privileges
  - Follow the instructions in the dialog box; there’s no need to customize any settings. Just click **Next** to proceed through the installation steps, and complete it by clicking **Finish**
 
    <img src="https://github.com/user-attachments/assets/a471b087-6f5c-4f59-92a4-c009263424a8" alt="Python Installation" width="600" height="400">
+   
 
-_ If the Python 3.9.7 is already available in your system, provided the software's path is added in your system's PATH variable the terminal display the following message
+ - If Python 3.9.7 is already installed on your system and its path is added to your system’s PATH variable, the terminal will display the following message:
 
-   <img src="https://github.com/user-attachments/assets/912db110-596a-490b-a470-4f1216ff82a8" alt="Terminal" width="800" height="100">
-
+    <img src="https://github.com/user-attachments/assets/912db110-596a-490b-a470-4f1216ff82a8" alt="Terminal" width="800" height="100">
+    
 
 #### 2.2 Install R
 Java JDK is required to one of the R ATLAS WebAPI, where it requires rJava. Ensure that java 23.0.1 is installed.
