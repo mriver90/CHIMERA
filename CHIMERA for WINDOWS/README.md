@@ -45,7 +45,7 @@ Once the Python software installation is completed, the executable file will che
 
 - The installation process requires user interaction, and a pop-up dialog box for R installation will appear
 
-  <img src="https://github.com/user-attachments/assets/35224472-2842-408c-bc2b-d3c5d363c1f0" alt="R Installation" width="250" height="200">
+  <img src="https://github.com/user-attachments/assets/35224472-2842-408c-bc2b-d3c5d363c1f0" alt="R Installation" width="300" height="150">
 
 - Follow the instructions in the dialog box; there’s no need to customize any settings
 
