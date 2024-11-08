@@ -51,18 +51,22 @@ Once the Python software installation is completed, the executable file will che
 
 - The R installation wizard will prompt you to select a folder path for installing R, and it will display a default path. You can either leave the default path as is or choose a different path of your preference. **Make sure to note down the chosen path, as you will need to provide the R bin folder path in the terminal after the installation is complete**
 
-  <img src="https://github.com/user-attachments/assets/fc603e81-cbd5-4723-9a11-9d1faf7f4025" alt="R Installation" width="600" height="400">
+  <img src="https://github.com/user-attachments/assets/fc603e81-cbd5-4723-9a11-9d1faf7f4025" alt="R Installation" width="500" height="400">
 
 - Click **Next** to proceed further. Post few clicks the installation starts.
   
 - Click **Finish** once the installation is completed
 
+  <img src="https://github.com/user-attachments/assets/1f16399e-6673-43c6-a9ae-0d6c7d968432" alt="R Installation" width="500" height="400">
+
 - Now, in the terminal / Command Prompt that the executable file opened, it will prompt you for the R bin folder path
   - You should have noted down the path where R was installed, as per the above instruction
   - Navigate to that path, where you will find a folder named **R**
   - Naviagte to **R > R-4.4.1 > bin**
-  - Copy this path (e.g., C:\Users\YourUserName\AppData\Local\Programs\R\R-4.4.1\bin) and paste it into the terminal, then press **Enter**
+  - Copy this path (e.g., C:\Program Files\R\R-4.4.1\bin) and paste it into the terminal, then press **Enter**
   - Once the path is successfully added to your system's PATH variable, you will see the following message in the terminal
+ 
+    <img src="https://github.com/user-attachments/assets/09384836-900c-40ea-bdc1-b95badc1e89c" width="800" height="400"> 
 
 - If R 4.4.1 is already installed on your system and its path is added to your system’s PATH variable, the terminal will display the following message:
 
