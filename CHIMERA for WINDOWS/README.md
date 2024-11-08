@@ -1,4 +1,6 @@
-# CHIMERA Applications
+# CHIMERA Setup Guide for Windows Users
+
+## CHIMERA Application
 CHIMERA is an application used to create concept sets at scale, map source codes to standard codes and integrate the end-to-end curation of concept sets in one application. The user uploads a lists of codes as input file (XLSX, XLS, CSV, XLSM), the application processes it to create and save concept sets in ATLAS. 
 
 It uses WebAPI to generate multiple concepts sets in ATLAS with appropriate naming conventions. It effectively manages the inclusion and exclusion of codes and their descendants.
@@ -7,21 +9,15 @@ NOTE: Vocabulary search is not enabled in CHIMERA, for that we refer the users t
 
 # Prerequisites
 
-### 1. **Python Programming Language**
-Python is required to run various scripts in CHIMERA. Ensure that Python 3.9.7 is installed.
+### 1. **Download "CHIMERA for Windows" folder**
+If you are a Windows user, all you need is this "CHIMERA for WINDOWS" folder to launch the application. 
 
-- Download Python from the official website: [Python.org](https://www.python.org/downloads/release/python-397/)
-- During installation, check the box for **Add Python to PATH**
-- Verify Python installation by running the following command in the command prompt:
+- **NOTE:** When downloading the zip file from GitHub, additional scripts and files will be included along with the "CHIMERA for Windows" folder. After extracting the zip file, you can delete everything except the "CHIMERA for Windows" folder.
 
-    ```bash
-    python --version
-    ```
-    
-- If Python is installed and successfully added to your system's user environment variables, running the above command will display the Python version (i.e., 3.9.7) in the command prompt.
+### 2. **Run CHIMERA_Installation.exe**
+- Run the executable file, CHIMERA_Installation.exe, with administrator privileges.
+  ![image](https://github.com/user-attachments/assets/47fbd0d9-b016-4771-bd2c-87c4656a66a0)
 
-### 2. **R Programming Language**
-CHIMERA requires R for access the ATLAS WebAPIs. Ensure that R 4.4.1 is installed.
 
 - Download R from the official website: [R for Windows](https://cran.r-project.org/bin/windows/base/)
 - Follow the installation instructions
