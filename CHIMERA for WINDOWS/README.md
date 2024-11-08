@@ -26,13 +26,18 @@ Run the executable file, CHIMERA_Installation.exe, with administrator privileges
    
  - The installation process requires user interaction, and a pop-up dialog box for Python installation will appear
    
-    - **Ensure to select the checkbox "Add Python 3.9 to PATH" and then click "Install Now". This step is essential, as it adds Python to your system's PATH variable, which is required to run the CHIMERA application.**
+ - **Ensure to select the checkbox "Add Python 3.9 to PATH" and then click "Install Now". This step is essential, as it adds Python to your system's PATH variable, which is required to run the CHIMERA application**
       
  - Follow the instructions in the dialog box; there’s no need to customize any settings. Just click **Next** to proceed through the installation steps, and complete it by clicking **Finish**
 
    <img src="https://github.com/user-attachments/assets/a471b087-6f5c-4f59-92a4-c009263424a8" alt="Python Installation" width="600" height="400">
 
-### 3. **Java - JDK**
+_ If the Python 3.9.7 is already available in your system, provided the software's path is added in your system's PATH variable the terminal display the following message
+
+   <img src="https://github.com/user-attachments/assets/912db110-596a-490b-a470-4f1216ff82a8" alt="Terminal" width="800" height="100">
+
+
+#### 2.2 Install R
 Java JDK is required to one of the R ATLAS WebAPI, where it requires rJava. Ensure that java 23.0.1 is installed.
 
 - Download Java from the official website: [Java for Windows](https://www.oracle.com/java/technologies/downloads/?er=221886#jdk23-windows)
