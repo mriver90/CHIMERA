@@ -66,7 +66,7 @@ Once the Python software installation is completed, the executable file will che
   - Copy this path (e.g., C:\Program Files\R\R-4.4.1\bin) and paste it into the terminal, then press **Enter**
   - Once the path is successfully added to your system's PATH variable, you will see the following message in the terminal
  
-    <img src="https://github.com/user-attachments/assets/09384836-900c-40ea-bdc1-b95badc1e89c" width="800" height="400"> 
+    <img src="https://github.com/user-attachments/assets/09384836-900c-40ea-bdc1-b95badc1e89c" width="800" height="300"> 
 
 - If R 4.4.1 is already installed on your system and its path is added to your system’s PATH variable, the terminal will display the following message:
 
