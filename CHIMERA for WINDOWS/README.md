@@ -70,7 +70,7 @@ Once the Python software installation is completed, the executable file will che
 
 - If R 4.4.1 is already installed on your system and its path is added to your system’s PATH variable, the terminal will display the following message:
 
-  <img src="https://github.com/user-attachments/assets/5921f318-e580-4121-95c3-9327dbb3b872" alt="Terminal" width="400" height="250">
+  <img src="https://github.com/user-attachments/assets/5921f318-e580-4121-95c3-9327dbb3b872" alt="Terminal" width="350" height="350">
 
 
 #### 2.3 Install Java
