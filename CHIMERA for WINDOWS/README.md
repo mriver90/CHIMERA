@@ -43,6 +43,12 @@ After a few seconds, the executable file will check for the availability of Pyth
 #### 2.2 Install R
 Once the Python software installation is completed, the executable file will check for the availability of R version 4.4.1 in your system. If it’s not available, it will download and begin the installation.
 
+- The installation process requires user interaction, and a pop-up dialog box for R installation will appear
+
+  <img src="https://github.com/user-attachments/assets/35224472-2842-408c-bc2b-d3c5d363c1f0" alt="R Installation" width="300" height="200">
+
+- Follow the instructions in the dialog box; there’s no need to customize any settings
+
 - Download Java from the official website: [Java for Windows](https://www.oracle.com/java/technologies/downloads/?er=221886#jdk23-windows)
 - Follow the installation instructions
 - After installation, make sure to add Java to your system's user environment variables, so it can be accessed from the command prompt
