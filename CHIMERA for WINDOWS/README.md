@@ -68,6 +68,20 @@ Once the Python software installation is completed, the executable file will che
 #### 2.3 Install Java
 Once the R software installation is completed, the executable file will check for the availability of Java version 23.0.1 in your system. If it’s not available, it will download and begin the installation.
 
+- The installation process requires user interaction, and a pop-up dialog box for R installation will appear
+
+- Follow the instructions in the dialog box; there’s no need to customize any settings. Just click **Next** to proceed through the installation steps
+
+- The Java installation wizard will prompt you to select a folder path for installing java, and it will display a default path. You can either leave the default path as is or choose a different path of your preference. **Make sure to note down the chosen path, as you will need to provide the java bin folder path in the terminal after the installation is complete** 
+
+- Click **Close** once the installation is completed
+
+- Now, in the terminal / Command Prompt that the executable file opened, it will prompt you for the Java bin folder path
+  - You should have noted down the path where Java was installed, as per the above instruction
+  - Navigate to that path, where you will find a folder named **Java**
+  - Naviagte to **Java > jdk-23 > bin**
+  - Copy this path (e.g., C:\Program Files\Java\jdk-23\bin) and paste it into the terminal, then press **Enter**
+  - Once the path is successfully added to your system's PATH variable, you will see the following message in the terminal
 
 - Download Java from the official website: [Java for Windows](https://www.oracle.com/java/technologies/downloads/?er=221886#jdk23-windows)
 - Follow the installation instructions
