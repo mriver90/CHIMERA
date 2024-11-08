@@ -19,7 +19,7 @@ Run the executable file, CHIMERA_Installation.exe, with administrator privileges
 
 - Right-click the executable file and select "Run with Elevated Privileges". This will open a terminal / Command Prompt with administrator privileges.
 
-  <img src="https://github.com/user-attachments/assets/47fbd0d9-b016-4771-bd2c-87c4656a66a0" alt="Run with Elevated Privileges" width="200" height="400">
+  <img src="https://github.com/user-attachments/assets/47fbd0d9-b016-4771-bd2c-87c4656a66a0" alt="Run with Elevated Privileges" width="200" height="300">
 
 #### 2.1. Install Python
 After a few seconds, the executable file will check for the availability of Python version 3.9.7 in your system. If it’s not available, it will download and begin the installation.
