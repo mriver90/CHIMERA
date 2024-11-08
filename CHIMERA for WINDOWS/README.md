@@ -47,7 +47,24 @@ Once the Python software installation is completed, the executable file will che
 
   <img src="https://github.com/user-attachments/assets/35224472-2842-408c-bc2b-d3c5d363c1f0" alt="R Installation" width="300" height="150">
 
-- Follow the instructions in the dialog box; there’s no need to customize any settings
+- Follow the instructions in the dialog box; there’s no need to customize any settings. Just click **Next** to proceed through the installation steps
+
+- The R installation wizard will prompt you to select a folder path for installing R, and it will display a default path. You can either leave the default path as is or choose a different path of your preference. **Make sure to note down the chosen path, as you will need to provide the R bin folder path in the terminal after the installation is complete**
+
+- Click **Finish** once the installation is completed
+
+- Now, in the terminal / Command Prompt that the executable file opened, it will prompt you for the R bin folder path
+  - You should have noted down the path where R was installed, as per the above instruction
+  - Navigate to that path, where you will find a folder named **R**
+  - Naviagte to **R > R-4.4.1 > bin**
+  - Copy this path (e.g., C:\Users\YourUserName\AppData\Local\Programs\R\R-4.4.1\bin) and paste it into the terminal, then press **Enter**
+  - Once the path is successfully added to your system's PATH variable, you will see the following message in the terminal
+
+- If R 4.4.1 is already installed on your system and its path is added to your system’s PATH variable, the terminal will display the following message:
+
+  <img src="https://github.com/user-attachments/assets/5921f318-e580-4121-95c3-9327dbb3b872" alt="Terminal" width="800" height="100">
+
+  
 
 - Download Java from the official website: [Java for Windows](https://www.oracle.com/java/technologies/downloads/?er=221886#jdk23-windows)
 - Follow the installation instructions
