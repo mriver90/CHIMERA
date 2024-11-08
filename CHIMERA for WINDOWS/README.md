@@ -64,7 +64,10 @@ Once the Python software installation is completed, the executable file will che
 
   <img src="https://github.com/user-attachments/assets/5921f318-e580-4121-95c3-9327dbb3b872" alt="Terminal" width="500" height="200">
 
-  
+
+#### 2.3 Install Java
+Once the R software installation is completed, the executable file will check for the availability of Java version 23.0.1 in your system. If it’s not available, it will download and begin the installation.
+
 
 - Download Java from the official website: [Java for Windows](https://www.oracle.com/java/technologies/downloads/?er=221886#jdk23-windows)
 - Follow the installation instructions
