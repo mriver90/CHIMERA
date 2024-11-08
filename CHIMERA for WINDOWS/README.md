@@ -19,7 +19,7 @@ Run the executable file, CHIMERA_Installation.exe, with administrator privileges
 
 - Right-click the executable file and select "Run with Elevated Privileges". This will open a terminal / Command Prompt with administrator privileges.
 
-  <img src="https://github.com/user-attachments/assets/47fbd0d9-b016-4771-bd2c-87c4656a66a0" alt="Run with Elevated Privileges" width="200" height="300">
+  <img src="https://github.com/user-attachments/assets/47fbd0d9-b016-4771-bd2c-87c4656a66a0" alt="Run with Elevated Privileges" width="200" height="400">
 
 #### 2.1. Install Python
 After a few seconds, the executable file will check for the availability of Python version 3.9.7 in your system. If it’s not available, it will download and begin the installation.
@@ -45,7 +45,7 @@ Once the Python software installation is completed, the executable file will che
 
 - The installation process requires user interaction, and a pop-up dialog box for R installation will appear
 
-  <img src="https://github.com/user-attachments/assets/35224472-2842-408c-bc2b-d3c5d363c1f0" alt="R Installation" width="300" height="200">
+  <img src="https://github.com/user-attachments/assets/35224472-2842-408c-bc2b-d3c5d363c1f0" alt="R Installation" width="250" height="200">
 
 - Follow the instructions in the dialog box; there’s no need to customize any settings
 
