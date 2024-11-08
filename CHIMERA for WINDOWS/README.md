@@ -51,6 +51,10 @@ Once the Python software installation is completed, the executable file will che
 
 - The R installation wizard will prompt you to select a folder path for installing R, and it will display a default path. You can either leave the default path as is or choose a different path of your preference. **Make sure to note down the chosen path, as you will need to provide the R bin folder path in the terminal after the installation is complete**
 
+  <img src="https://github.com/user-attachments/assets/fc603e81-cbd5-4723-9a11-9d1faf7f4025" alt="R Installation" width="600" height="400">
+
+- Click **Next** to proceed further. Post few clicks the installation starts.
+  
 - Click **Finish** once the installation is completed
 
 - Now, in the terminal / Command Prompt that the executable file opened, it will prompt you for the R bin folder path
