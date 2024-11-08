@@ -15,8 +15,10 @@ If you are a Windows user, all you need is this "CHIMERA for WINDOWS" folder to 
 - **NOTE:** When downloading the zip file from GitHub, additional scripts and files will be included along with the "CHIMERA for Windows" folder. After extracting the zip file, you can delete everything except the "CHIMERA for Windows" folder.
 
 ### 2. **Run CHIMERA_Installation.exe**
-- Run the executable file, CHIMERA_Installation.exe, with administrator privileges.
-  ![image](https://github.com/user-attachments/assets/47fbd0d9-b016-4771-bd2c-87c4656a66a0)
+Run the executable file, CHIMERA_Installation.exe, with administrator privileges.
+
+- Right-click the executable file and select "Run with Elevated Privileges". This will open a terminal or Command Prompt with administrator privileges.
+<img src="https://github.com/user-attachments/assets/47fbd0d9-b016-4771-bd2c-87c4656a66a0" alt="Run with Elevated Privileges" width="300" height="200">
 
 
 - Download R from the official website: [R for Windows](https://cran.r-project.org/bin/windows/base/)
