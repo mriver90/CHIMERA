@@ -149,7 +149,7 @@ After Python, R, and Java are installed and their respective environment variabl
 
 - Next, the script checks for any missing R packages required to run the CHIMERA application and installs them
   
-  <img src="https://github.com/user-attachments/assets/7a59a054-ebf4-46ce-82c1-469eecc15da6" alt="Terminal" width="700" height="200">
+  <img src="https://github.com/user-attachments/assets/7a59a054-ebf4-46ce-82c1-469eecc15da6" alt="Terminal" width="550" height="200">
 
 
 ## CHIMERA Project team:
