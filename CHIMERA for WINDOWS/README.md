@@ -107,8 +107,10 @@ Once the R software installation is completed, the executable file will check fo
 
   <img src="https://github.com/user-attachments/assets/3b226f6e-d369-4e98-a156-d7358ca5a450" alt="Terminal" width="750" height="200">
 
+
 #### 2.4 Exit .exe file
 - Exit the executable file by clicking any key and press **Enter**
+
 
   
 ### 3. Run CHIMERA_Prerequisities.py
@@ -147,9 +149,9 @@ After Python, R, and Java are installed and their respective environment variabl
 
 - Next, the script checks for any missing R packages required to run the CHIMERA application and installs them
   
-  <img src="https://github.com/user-attachments/assets/b78b6fa3-da64-4ac2-b582-5cf455800acb" alt="Terminal" width="600" height="300">
+  <img src="https://github.com/user-attachments/assets/7a59a054-ebf4-46ce-82c1-469eecc15da6" alt="Terminal" width="600" height="300">
 
-  
+
 ## CHIMERA Project team:
 Marcela Rivera, Shahithya Lalitha Prabakaran, Satyajit Pande, Anna Ostropolets, Luisa Martinez
 
