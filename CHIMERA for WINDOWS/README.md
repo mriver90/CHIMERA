@@ -109,7 +109,14 @@ Once the R software installation is completed, the executable file will check fo
 
 
 ### 3. Run CHIMERA_Prerequisities.py
-- 
+After Python, R, and Java are installed and their respective environment variables are configured, you’ll need to run the CHIMERA_Prerequisites.py script.
+
+- Open a terminal / Command Prompt (Recommended: Run as administrator)
+- Navigate to the directory containing the CHIMERA code scripts using the cd command
+- Run the script with the following command: python CHIMERA_Prerequisites.py
+
+  <img src="https://github.com/user-attachments/assets/12d0682f-6553-4fcd-b525-9c7683a03768" alt="Terminal" width="900" height="150">
+
 
 ## CHIMERA Project team:
 Marcela Rivera, Shahithya Lalitha Prabakaran, Satyajit Pande, Anna Ostropolets, Luisa Martinez
