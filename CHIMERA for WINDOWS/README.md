@@ -81,7 +81,7 @@ Once the R software installation is completed, the executable file will check fo
 
 - The installation process requires user interaction, and a pop-up dialog box for Java installation will appear
 
-- Follow the instructions in the dialog box; there’s no need to customize any settings. Just click **Next** to proceed through the installation steps
+- Follow the instructions in the dialog box; there’s no need to customize any settings. Just click **Next** to proceed through the installation steps (**NOTE:** It migt take a while for the dialog box below to appear. Please do not close the terminal / Command Prompt during this process)
   
   <img src="https://github.com/user-attachments/assets/4be39742-05ac-4ea2-a9b4-64491545ccf3" alt="R Installation" width="500" height="400">
   
@@ -99,6 +99,9 @@ Once the R software installation is completed, the executable file will check fo
   - Naviagte to **Java > jdk-23 > bin**
   - Copy this path (e.g., C:\Program Files\Java\jdk-23\bin) and paste it into the terminal, then press **Enter**
   - Once the path is successfully added to your system's PATH variable, you will see the following message in the terminal
+ 
+    <img src="https://github.com/user-attachments/assets/be10ccbb-5b08-44c3-aa9d-0897d6df0093" width="900" height="250">
+
  
 - If Java version 23.0.1 is already installed on your system and its path is added to your system’s PATH variable, the terminal will display the following message:
 
