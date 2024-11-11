@@ -76,7 +76,7 @@ Once the Python software installation is completed, the executable file will che
 #### 2.3 Install Java
 Once the R software installation is completed, the executable file will check for the availability of Java version 23.0.1 in your system. If it’s not available, it will download and begin the installation.
 
-- The installation process requires user interaction, and a pop-up dialog box for R installation will appear
+- The installation process requires user interaction, and a pop-up dialog box for Java installation will appear
 
 - Follow the instructions in the dialog box; there’s no need to customize any settings. Just click **Next** to proceed through the installation steps
 
@@ -96,11 +96,11 @@ Once the R software installation is completed, the executable file will check fo
   <img src="https://github.com/user-attachments/assets/3b226f6e-d369-4e98-a156-d7358ca5a450" alt="Terminal" width="700" height="200">
 
 
-# CHIMERA Project team:
+## CHIMERA Project team:
 Marcela Rivera, Shahithya Lalitha Prabakaran, Satyajit Pande, Anna Ostropolets, Luisa Martinez
 
-# CHIMERA Software Development Lead: 
+## CHIMERA Software Development Lead: 
 Shahithya Lalitha Prabakaran
 
-# Acknowledgements: 
+## Acknowledgements: 
 Alan Andryc, Chris Knoll
