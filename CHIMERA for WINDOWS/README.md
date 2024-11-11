@@ -93,7 +93,7 @@ Once the R software installation is completed, the executable file will check fo
  
 - If Java version 23.0.1 is already installed on your system and its path is added to your system’s PATH variable, the terminal will display the following message:
 
-  <img src="https://github.com/user-attachments/assets/3b226f6e-d369-4e98-a156-d7358ca5a450" alt="Terminal" width="800" height="150">
+  <img src="https://github.com/user-attachments/assets/3b226f6e-d369-4e98-a156-d7358ca5a450" alt="Terminal" width="700" height="200">
 
 
 # CHIMERA Project team:
