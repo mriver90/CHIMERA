@@ -90,6 +90,9 @@ Once the R software installation is completed, the executable file will check fo
 
 - Click **Close** once the installation is completed
 
+  <img src="https://github.com/user-attachments/assets/22a8a033-43e9-4771-aab2-0e2614646397" alt="R Installation" width="500" height="400">
+
+
 - Now, in the terminal / Command Prompt that the executable file opened, it will prompt you for the Java bin folder path
   - You should have noted down the path where Java was installed, as per the above instruction
   - Navigate to that path, where you will find a folder named **Java**
