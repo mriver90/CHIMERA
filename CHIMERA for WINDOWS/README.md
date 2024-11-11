@@ -107,17 +107,46 @@ Once the R software installation is completed, the executable file will check fo
 
   <img src="https://github.com/user-attachments/assets/3b226f6e-d369-4e98-a156-d7358ca5a450" alt="Terminal" width="750" height="200">
 
+#### 2.4 Exit .exe file
+- Exit the executable file by clicking any key and press **Enter**
 
+  
 ### 3. Run CHIMERA_Prerequisities.py
 After Python, R, and Java are installed and their respective environment variables are configured, you’ll need to run the CHIMERA_Prerequisites.py script.
 
 - Open a terminal / Command Prompt (Recommended: Run as administrator)
+  
 - Navigate to the directory containing the CHIMERA code scripts using the cd command
+  
 - Run the script with the following command: python CHIMERA_Prerequisites.py
 
   <img src="https://github.com/user-attachments/assets/12d0682f-6553-4fcd-b525-9c7683a03768" alt="Terminal" width="900" height="150">
 
 
+- The script first checks for any missing Python packages required to run the CHIMERA application and installs them
+  
+- Once the necessary packages are installed, the script prompts the user to load **CONCEPT.csv** and **CONCEPT_RELATIONSHIP.csv** into **chimera.db** database file
+  - **chimera.db** database file is essential for performing standard code mapping
+  - If you have already loaded the CSV files and have a **chimera.db** file located in the CHIMERA Code Scripts folder, you can use that file and skip this step
+
+    <img src="https://github.com/user-attachments/assets/33024bfd-eb1d-4ca1-ad50-0b0c8616399c" alt="Terminal" width="900" height="200">
+    
+
+  - If not, proceed with creating a new **chimera.db** file by pressing **y** when prompted. You can also proceed to refresh your database file with the new data, if you have an updated or specific version of these CSV files
+
+- After completing the Python prerequisites, the terminal will prompt you to provide the **Roaming** path to add it in the system's PATH variable. Any additional Python packages installed by this executable file will be stored in this Roaming directory
+  - Locate the Roaming directory. To locate the correct path, scroll through the terminal / Command Prompt to find the displayed Roaming path during installation of Python packages
+  - Navigate to this path on your system: **Roaming > Python > Python39 > Scripts**
+  - Copy the path, paste it into the terminal, and press **Enter**
+  - Close the terminal / Command Prompt, then open a new terminal and rerun the CHIMERA_Prerequisites.py script. This step is necessary to apply any changes made to the system's PATH variable
+    
+    <img src="https://github.com/user-attachments/assets/d11cee05-4b17-4b67-891d-a7aead444f18" alt="Terminal" width="900" height="200">
+    
+
+  - This step can be skipped if the path has already been added to your system’s PATH variable
+ 
+  
+  
 ## CHIMERA Project team:
 Marcela Rivera, Shahithya Lalitha Prabakaran, Satyajit Pande, Anna Ostropolets, Luisa Martinez
 
