@@ -99,6 +99,9 @@ Once the R software installation is completed, the executable file will check fo
   <img src="https://github.com/user-attachments/assets/3b226f6e-d369-4e98-a156-d7358ca5a450" alt="Terminal" width="750" height="200">
 
 
+### 3. Run CHIMERA_Prerequisities.py
+- 
+
 ## CHIMERA Project team:
 Marcela Rivera, Shahithya Lalitha Prabakaran, Satyajit Pande, Anna Ostropolets, Luisa Martinez
 
