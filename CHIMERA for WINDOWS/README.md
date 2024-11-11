@@ -1,11 +1,13 @@
 # CHIMERA Setup Guide for Windows Users
 
+
 ## CHIMERA Application
 CHIMERA is an application used to create concept sets at scale, map source codes to standard codes and integrate the end-to-end curation of concept sets in one application. The user uploads a lists of codes as input file (XLSX, XLS, CSV, XLSM), the application processes it to create and save concept sets in ATLAS. 
 
 It uses WebAPI to generate multiple concepts sets in ATLAS with appropriate naming conventions. It effectively manages the inclusion and exclusion of codes and their descendants.
 
 NOTE: Vocabulary search is not enabled in CHIMERA, for that we refer the users to ATLAS or ATHENA (https://athena.ohdsi.org/). 
+
 
 ## Prerequisites
 
@@ -20,6 +22,7 @@ Run the executable file, CHIMERA_Installation.exe, with administrator privileges
 - Right-click the executable file and select "Run with Elevated Privileges". This will open a terminal / Command Prompt with administrator privileges.
 
   <img src="https://github.com/user-attachments/assets/47fbd0d9-b016-4771-bd2c-87c4656a66a0" alt="Run with Elevated Privileges" width="200" height="400">
+
 
 #### 2.1. Install Python
 After a few seconds, the executable file will check for the availability of Python version 3.9.7 in your system. If it’s not available, it will download and begin the installation.
@@ -93,7 +96,7 @@ Once the R software installation is completed, the executable file will check fo
  
 - If Java version 23.0.1 is already installed on your system and its path is added to your system’s PATH variable, the terminal will display the following message:
 
-  <img src="https://github.com/user-attachments/assets/3b226f6e-d369-4e98-a156-d7358ca5a450" alt="Terminal" width="700" height="200">
+  <img src="https://github.com/user-attachments/assets/3b226f6e-d369-4e98-a156-d7358ca5a450" alt="Terminal" width="750" height="200">
 
 
 ## CHIMERA Project team:
