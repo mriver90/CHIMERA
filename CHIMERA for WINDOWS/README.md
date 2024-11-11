@@ -167,8 +167,10 @@ After Python, R, and Java are installed and their respective environment variabl
 ## CHIMERA Project team:
 Marcela Rivera, Shahithya Lalitha Prabakaran, Satyajit Pande, Anna Ostropolets, Luisa Martinez
 
+
 ## CHIMERA Software Development Lead: 
 Shahithya Lalitha Prabakaran
+
 
 ## Acknowledgements: 
 Alan Andryc, Chris Knoll
