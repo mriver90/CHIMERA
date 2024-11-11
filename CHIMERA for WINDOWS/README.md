@@ -154,7 +154,7 @@ After Python, R, and Java are installed and their respective environment variabl
 
 - Next, the terminal / Command Prompt will prompt you to launch the application. Press **y** to proceed and press **Enter**
 
-  <img src="https://github.com/user-attachments/assets/9fc752ed-25a5-4966-89ee-1faea28933ea" alt="Terminal" width="600" height="150">
+  <img src="https://github.com/user-attachments/assets/da5d42b6-d014-446a-be17-7cf502186c06" alt="Terminal" width="600" height="150">
 
 
 ## CHIMERA Project team:
