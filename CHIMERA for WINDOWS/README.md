@@ -144,8 +144,11 @@ After Python, R, and Java are installed and their respective environment variabl
     
 
   - This step can be skipped if the path has already been added to your system’s PATH variable
- 
+
+- Next, the script checks for any missing R packages required to run the CHIMERA application and installs them
   
+  <img src="https://github.com/user-attachments/assets/b78b6fa3-da64-4ac2-b582-5cf455800acb" alt="Terminal" width="600" height="300">
+
   
 ## CHIMERA Project team:
 Marcela Rivera, Shahithya Lalitha Prabakaran, Satyajit Pande, Anna Ostropolets, Luisa Martinez
