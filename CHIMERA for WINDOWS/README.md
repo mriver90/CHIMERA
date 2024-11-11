@@ -82,6 +82,9 @@ Once the R software installation is completed, the executable file will check fo
 - The installation process requires user interaction, and a pop-up dialog box for Java installation will appear
 
 - Follow the instructions in the dialog box; there’s no need to customize any settings. Just click **Next** to proceed through the installation steps
+  
+  <img src="https://github.com/user-attachments/assets/4be39742-05ac-4ea2-a9b4-64491545ccf3" alt="R Installation" width="500" height="400">
+  
 
 - The Java installation wizard will prompt you to select a folder path for installing java, and it will display a default path. You can either leave the default path as is or choose a different path of your preference. **Make sure to note down the chosen path, as you will need to provide the java bin folder path in the terminal after the installation is complete** 
 
