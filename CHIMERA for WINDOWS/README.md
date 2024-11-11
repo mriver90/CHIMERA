@@ -160,6 +160,10 @@ After Python, R, and Java are installed and their respective environment variabl
   <img src="https://github.com/user-attachments/assets/59b61062-f1f0-4ba4-b9a7-a1ffd263ed26" alt="CHIMERA Local Host" width="900" height="400">
 
 
+## NOTE
+***The above detailed steps are only required for the initial setup. Going forward, you can launch the CHIMERA application simply by running the Python script CHIMERA_Prerequisities.py, as outlined in Section 3 above.***
+
+
 ## CHIMERA Project team:
 Marcela Rivera, Shahithya Lalitha Prabakaran, Satyajit Pande, Anna Ostropolets, Luisa Martinez
 
