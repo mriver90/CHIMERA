@@ -5,7 +5,7 @@ import urllib.request
 import ctypes
 import sys
 
-# Add environment path
+# Add environment paths
 def add_path_variable_persistently(new_path):
     try:
         result = subprocess.run(
