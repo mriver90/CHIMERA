@@ -77,7 +77,7 @@ def install_python_prerequisites():
         print("")
         print("1. IMPORTANT: Ensure that the CONCEPT and CONCEPT_RELATIONSHIP CSV files are located inside the 'Vocabulary_Tables' folder, which should be within the CHIMERA Code Scripts folder that you downloaded from GitHub. Refer Readme file for more information.")
         print("2. IMPORTANT: The 'chimera.db' database is essential for performing standard code mapping operations. If this database file already exists in the folder containing the CHIMERA code scripts, you can skip the next step of loading the CONCEPT and CONCEPT_RELATIONSHIP CSV files into 'chimera.db'.")
-        print("3. If you wish to use a specific or updated version of the ATHENA vocabularies, please ensure you have the relevant CSV files in the 'Vocabulary_Tables' folder and proceed with loading the data to refresh the 'chimera.db' file.")
+        print("3. If you wish to use a specific or updated version of the ATHENA vocabularies, please ensure you have the relevant CSV files in the 'Vocabulary_Tables' folder, delete the old 'chimera.db' file and proceed with loading the data to refresh the 'chimera.db' file.")
         print("")
 
         def get_user_approval():
