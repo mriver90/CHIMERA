@@ -105,7 +105,7 @@ In the home page, there are two menus at the top:
 
 1. The application will default to the home menu upon startup. If it does not, click on the "Home" menu.
 2. In this section, you will find an option to upload a file.
-3. Users can upload files in XLSX, XLS, CSV, and XLSM formats. We provide an example of the input file CHIMERA_Input_Template.xlsx, but the format is flexible so users can slightly deviate from this template.
+3. Users can upload files in XLSX, XLS, CSV, and XLSM formats. We provide an example of the input file CHIMERA_Input_File_Example.xlsx, but the format is flexible so users can slightly deviate from this template.
 4. Please take care when uploading:
    - The Excel file may contain one or multiple sheets. Maintain a consistent data structure across multiple sheets.
    - The Concept ID and Vocabulary columns are required, while I/E and Descendants are optional.  
